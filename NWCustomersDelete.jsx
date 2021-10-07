@@ -36,9 +36,9 @@ const NWCustomerDelete = ({asiakasObj, unmountMe}) => {
                 <table id="deletetbl">
                     <tbody >
                         <label>Poistettava asiakas</label>
-                        <tr><td className="otsikko">Asiakastunnus:</td><td>{this.props.asiakasObj.customerId}</td></tr>
-                        <tr><td className="otsikko">Firman nimi:</td><td>{this.props.asiakasObj.companyName}</td></tr>
-                        <tr><td className="otsikko">Maa:</td><td>{this.props.asiakasObj.country}</td></tr>
+                        <tr><td className="otsikko">Asiakastunnus:</td><td>{props.asiakasObj.customerId}</td></tr>
+                        <tr><td className="otsikko">Firman nimi:</td><td>{props.asiakasObj.companyName}</td></tr>
+                        <tr><td className="otsikko">Maa:</td><td>{props.asiakasObj.country}</td></tr>
                     </tbody>
                 </table>
                 <br />
